@@ -3,11 +3,11 @@ The main challenge with the dataset is that most the features are categorical an
 We need to convert these categorical features into real values to train a machine learning model.
 
 
-In this repo I used ordinal encoder to convert these categorical features into numerical values with proper mapping from category level to numerical value and trained a SVC(Support Vector Classifier).
+In this project I used ordinal encoder to convert these categorical features into numerical values with proper mapping from category level to numerical value and trained a SVC(Support Vector Classifier).
 Though the dataset is having class imbalance with 1434 data points for one class and 120 data points for other class,achived 93% test accuracy.
 
 
-To tackle the problem of class imbalance I used SMOT(synthetic minority oversampling technique).\
+To tackle the problem of class imbalance I used a data augmentation technique called SMOT.\
 1.SMOT is a synthetic minority oversampling technique.\
 2.A problem with imbalanced classification is that there are too few examples of the minority class for a model to effectively learn the decision boundary.\
 3.One way to solve this problem is to oversample the examples in the minority class. This can be achieved by simply duplicating examples from the minority class in the training dataset prior to fitting a model. This can balance the class distribution but does not provide any additional information to the model.\
