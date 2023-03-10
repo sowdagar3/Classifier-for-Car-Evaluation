@@ -1,5 +1,5 @@
 This repository contains a classifier model trained with Car Evaluation Dataset(Source:[Kaggle](https://www.kaggle.com/datasets/elikplim/car-evaluation-data-set)).
-The main challenge with the dataset is that most the features are categorical and we can't give these categorical features directly to a machine learning model.
+The main challenge with the dataset is that,most of the features are categorical and we can't give these categorical features directly to a machine learning model.
 We need to convert these categorical features into real values to train a machine learning model.
 
 
@@ -7,7 +7,7 @@ In this project I used ordinal encoder to convert these categorical features int
 Though the dataset is having class imbalance with 1434 data points for one class and 120 data points for other class,achived 89% test accuracy,With ensemble model,achived 90% accuracy.
 
 
-To tackle the problem of class imbalance I used a data augmentation technique called SMOT and achieved 95% test accuracy.\
+To tackle the problem of class imbalance I used a data augmentation technique called SMOT and achieved 95% test accuracy.
 
 1.SMOT is a synthetic minority oversampling technique.\
 2.A problem with imbalanced classification is that there are too few examples of the minority class for a model to effectively learn the decision boundary.\
@@ -15,7 +15,6 @@ To tackle the problem of class imbalance I used a data augmentation technique ca
 4.SMOTE first selects a minority class instance a at random and finds its k nearest minority class neighbors. The synthetic instance is then created by choosing one of the k nearest neighbors b of a point a, at random and connecting a and b to form a line segment in the feature space. The synthetic instances are generated as a convex combination of the two chosen instances a and b.
 
 
-After applying SMOT achieved a test accuracy of 95%.
 
 
    
