@@ -4,10 +4,10 @@ We need to convert these categorical features into real values to train a machin
 
 
 In this project I used ordinal encoder to convert these categorical features into numerical values with proper mapping from category level to numerical value and trained a SVC(Support Vector Classifier).
-Though the dataset is having class imbalance with 1434 data points for one class and 120 data points for other class,achieved 89% test accuracy,With ensemble model,achieved 90% accuracy.
+Though the dataset is having class imbalance with 1434 data points for one class and 120 data points for other class,achieved **89% est accuracy**,With **ensemble model,achieved 90%** accuracy.
 
 
-To tackle the problem of class imbalance I used a data augmentation technique called SMOT and achieved 95% test accuracy.
+To tackle the problem of class imbalance I used a data augmentation technique called **SMOT and achieved 95%** test accuracy.
 
 1. SMOT is a synthetic minority oversampling technique.
 
